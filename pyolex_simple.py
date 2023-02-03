@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-# Make Olex objects - Joakim Skjefstad
-# For the Olex navigation software plotlayer file, "Ruter"
+# Make Olex objects
+# This file is going away, import the pyolex-package from this folder instead
 
 import time
 from typing import NamedTuple
