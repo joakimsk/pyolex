@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Utilities used by pyolex
+
 import time
 from typing import NamedTuple
 

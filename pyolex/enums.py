@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+
+# Enums used by pyolex
+
 from enum import Enum
 
 class Symbol(Enum): # Should be 23 in total
