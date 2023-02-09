@@ -1,3 +1,7 @@
 __pycache__
 Ruter
 *.pyc
+fishstation-*.txt
+*.ods
+*.ods#
+data/
