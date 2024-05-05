@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-# Make Olex objects
-# This file is going away, import the pyolex-package from this folder instead
+# A simple example stand-alone, this will go away
 
 import time
 from typing import NamedTuple

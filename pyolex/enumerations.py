@@ -1,16 +1,12 @@
-#!/usr/bin/env python
-
-# Enums used by pyolex
-
 from enum import Enum
 
-class Symbol(Enum): # Should be 23 in total
+class Symbol(Enum):
     BROWNCIRCLE = "Brunsirkel"
     YELLOWDANGER = "Gulfare"
     FISHINGNET_START = "Garnstart"
     FISHINGNET_STOP = "Garnstopp"
 
-class Color(Enum): # Can we make these without Norwegian letters ø and å?
+class Color(Enum):
     RED = "Rød"
     BLUE = "Blå"
     GREEN = "Grønn"

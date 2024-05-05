@@ -1,15 +1,20 @@
-# pyolex
+### pyxtf
 
-pyolex is a python package to work with Olex data, primarily Plotlayers (Ruter-file)
+A python library for writing [Olex](https://olex.no/) plotlayer ("Ruter") files. Reading is planned implemented in the future.
 
 [![License][license-image]][license-url]
 
-## Installation
+##### Installation from pypi
 
-Not sure how to do that yet... Clone this repo and import the module in pyolex for now...
+```bash
+pip3 install pyolex
+```
 
-## Usage
-### Convert Decimal Degrees to Decimal Minutes (Olex-format)
+###### Dependencies
+The project has no major dependencies. Some examples may require more advanced dependencies like pandas.
+
+##### Usage
+###### Convert Decimal Degrees to Decimal Minutes (Olex-format)
 Example code:
 ```
 import pyolex
@@ -20,7 +25,7 @@ print(min_coord.lat, min_coord.lon)
 ```
 Output: 3697.777122 301.0430802
 
-### Make a towline
+###### Make a towline
 Example code:
 ```
 import pyolex
@@ -45,6 +50,9 @@ Plottsett 1
 3697.777122 301.0430802 1675377136 Garnstart
 3698.377122 300.9230802 1675377136 Garnstopp
 ```
+
+##### Contribution
+If you are missing functionality or find bugs, either submit a patch, or be prepared to send example "Ruter"-file when submitting the bug-report.
 
 ### License
 pyolex is open-source and licensed under GNU GPL, Version 3.

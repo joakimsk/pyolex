@@ -1,11 +1,7 @@
-#!/usr/bin/env python
-
-# Utilities used by pyolex
-
 import time
 from typing import NamedTuple
 
-from .enums import Symbol, Color, RouteType
+from .enumerations import Symbol, Color, RouteType
 
 class DecimalDegreeCoord(NamedTuple):
     lat: float

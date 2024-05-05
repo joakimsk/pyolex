@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-
-# Class for Olex file format
-
 from .utilities import *
 
 class Olex:
