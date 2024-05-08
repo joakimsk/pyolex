@@ -1,4 +1,4 @@
-### pyxtf
+### pyolex
 
 A python library for writing [Olex](https://olex.no/) plotlayer ("Ruter") files including utility functions for converting decimal degrees to decimal minutes. Reading is planned implemented in the future.
 
